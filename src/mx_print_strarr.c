@@ -7,7 +7,7 @@ void mx_print_strarr(char **arr, const char *delim)
     }
     for (int i = 0; arr != NULL; i++) {
        mx_printstr(*arr++);
-       mx_printchar(*delim);
+       mx_printchar(char *delim);
     }
 }
 
